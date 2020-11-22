@@ -31,5 +31,5 @@ Cypress.Commands.add("setup", (name: string, template?: string) =>
       window.document.body.innerHTML = template || `<${name}></${name}>`;
     })
     .then(() => cy.wait(500))
-    .then(() => cy.get(name))
+    .then(() => cy.get(name).shadow())
 );

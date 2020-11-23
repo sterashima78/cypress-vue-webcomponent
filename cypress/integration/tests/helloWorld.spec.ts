@@ -6,7 +6,6 @@ describe("Hello World", () => {
 
   it("props", () => {
     cy.setup("v-hello-world", `<v-hello-world msg="HI!!"></v-hello-world>`)
-      .shadow()
       .find("h1")
       .should("contain.text", "HI!!");
   });

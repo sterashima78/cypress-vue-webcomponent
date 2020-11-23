@@ -19,6 +19,7 @@ import cypressTypeScriptPreprocessor from "./ts-preprocessor";
 const plugin: Cypress.PluginConfig = on => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  //@ts-expect-error
   on("file:preprocessor", cypressTypeScriptPreprocessor);
 };
 

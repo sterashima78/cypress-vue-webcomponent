@@ -21,7 +21,6 @@
     "vue": "2.6.12"
   },
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "5.4.11",
     "@types/jest": "24.9.1",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
@@ -48,7 +47,7 @@
     "ts-loader": "8.0.11",
     "typescript": "3.9.7",
     "vue-template-compiler": "2.6.12",
-    "webpack": "4.44.2"
+    "webpack": "^4.44.2"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

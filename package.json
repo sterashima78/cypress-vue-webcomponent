@@ -15,7 +15,7 @@
     "cypress:open": "start-server-and-test 'npm run serve:cypress' http://localhost:8080 'cypress open'"
   },
   "dependencies": {
-    "@vue/composition-api": "1.0.0-beta.19",
+    "@vue/composition-api": "1.0.0-rc.11",
     "axios": "0.21.0",
     "core-js": "3.7.0",
     "vue": "2.6.12"
